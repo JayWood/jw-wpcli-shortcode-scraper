@@ -14,6 +14,13 @@ _( showing the resulting CSV output )_
 
 ## Usage
 
+### Installation
+
+`composer require jaywood/jw-shortcode-scraper`
+
+If you happen to use the sweet [Composer Installers](https://github.com/composer/installers) library, this CLI script is
+marked as a `wp-cli-package` for ease of use later.
+
 ### Command Syntax
 - `wp jw-shortcode-scraper scrape [--export] [--site=<slug>]`
 - `export` - Exports to a csv file, if possible, relative to the current directory.
