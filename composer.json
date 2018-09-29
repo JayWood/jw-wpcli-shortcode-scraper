@@ -1,5 +1,5 @@
 {
-  "name": "JayWood/jw-wpcli-random-posts",
+  "name": "JayWood/jw-shortcode-scraper",
   "description": "A WP-CLI script to scrape all blog posts for shortcodes ( registered or not ) and provides you a report after complete with CSV capability.",
   "type": "wp-cli-package",
   "keywords": ["wp-cli", "wordpress", "shortcode", "report"],
