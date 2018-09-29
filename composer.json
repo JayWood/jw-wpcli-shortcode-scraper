@@ -4,7 +4,7 @@
   "type": "wp-cli-package",
   "keywords": ["wp-cli", "wordpress", "shortcode", "report"],
   "homepage": "http://plugish.com",
-  "license": "GPLv2",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Jay Wood",
