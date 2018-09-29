@@ -85,10 +85,6 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 					WP_CLI::error( 'Error running export method: ' . $e->getMessage() );
 				}
 			}
-
-			// Display the table.
-
-			// output results
 		}
 
 		/**
