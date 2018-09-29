@@ -97,9 +97,6 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 		 * @param int $multiplier The multiplier for batch processing
 		 *
 		 * @return false|array Array of objects on success, null otherwise.
-		 *
-		 * @author JayWood
-		 * @since  NEXT
 		 */
 		private function query_posts( $multiplier = 0 ) {
 			global $wpdb;
