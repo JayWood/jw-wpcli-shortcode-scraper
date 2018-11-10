@@ -14,12 +14,28 @@ _( showing the resulting CSV output )_
 
 ## Usage
 
-### Installation
+### Installation - Composer
+
 
 `composer require jaywood/jw-shortcode-scraper`
 
 If you happen to use the sweet [Composer Installers](https://github.com/composer/installers) library, this CLI script is
 marked as a `wp-cli-package` for ease of use later.
+
+### Installation - Manual
+
+1. Download or clone the repository to `wp-content/mu-plugins/jw-wpcli-shortcode-scraper/` _( Name is up to you )_
+1. Create a new file in `wp-content/mu-plugins` call it whatever you want, I use `init.php`
+1. Require the file like so:
+```
+<?php
+
+if ( defined( 'WP_CLI' ) && WP_CLI ) {
+    require_once 'jw-wpcli-shortcode-scraper/jw-shortcode-scraper.php';
+}
+```
+
+Now since your `init.php` file is in `wp-content/mu-plugins` it will always load.
 
 ### Command Syntax
 - `wp jw-shortcode-scraper scrape [--export] [--site=<slug>]`
